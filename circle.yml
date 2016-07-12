@@ -1,0 +1,7 @@
+general:
+  artifacts:
+    - "_output"
+
+test:
+  override:
+    - rake
