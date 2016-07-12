@@ -1,0 +1,26 @@
+AllText:
+  font: American Typewriter 36
+  align: center
+  color: '#000000'
+
+Name:
+  font: American Typewriter Bold 36
+  extends: AllText
+  width: 825
+  y: 25
+
+Type:
+  extends: AllText
+  font: American Typewriter Regular 24
+  width: 825
+  y: 100
+
+Quote:
+  extends: AllText
+  font: American Typewriter 18
+  align: left
+  width: 700
+  height: 200
+  y: 900
+  x: 50
+
