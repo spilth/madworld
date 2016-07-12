@@ -4,4 +4,4 @@ general:
 
 test:
   override:
-    - rake
+    - bundle exec rake
