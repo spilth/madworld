@@ -1,26 +1,53 @@
+bleed:
+  x: 0
+  y: 0
+  width: 825
+  height: 1125
+  dash: 3 3
+
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
+
 AllText:
   font: American Typewriter 36
   align: center
   color: '#000000'
 
-Name:
+name:
   font: American Typewriter Bold 36
   extends: AllText
   width: 825
-  y: 25
+  y: 75
 
-Type:
+type-name:
   extends: AllText
   font: American Typewriter Regular 24
   width: 825
-  y: 100
+  y: 125
 
-Quote:
+type-icon:
+  x: 100
+  y: 100
+  width: 75
+  height: 75
+
+quote:
   extends: AllText
   font: American Typewriter 18
   align: left
-  width: 700
+  width: 625
   height: 200
   y: 900
-  x: 50
+  x: 100
 

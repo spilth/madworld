@@ -4,7 +4,7 @@ What is this game about? How many players?
 
 # Objective
 
-What is the object of the game?
+The objective of the game is to be the last remaining survivor of the wasteland.
 
 # Components
 
