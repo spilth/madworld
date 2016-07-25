@@ -10,42 +10,64 @@ cut:
   y: 37.5
   width: 750
   height: 1050
+  radius: 16
+  fill_color: '#000f'
 
 safe:
   x: 75
   y: 75
   width: 675
   height: 975
-  radius: 16
-  dash: 3 3
 
-AllText:
+background:
+  extends: safe
+  alpha: 0.75
+
+default-text:
   font: American Typewriter 36
   align: center
-  color: '#000000'
+  color: '#ffff'
 
 name:
   font: American Typewriter Bold 36
-  extends: AllText
+  extends: default-text
   width: 825
   y: 75
 
 type-name:
-  extends: AllText
+  extends: default-text
   font: American Typewriter Regular 24
   width: 825
   y: 125
 
 type-icon:
   x: 100
-  y: 100
+  y: 85
   width: 75
   height: 75
 
+image:
+  width: 625
+  height: 400
+  y: 200
+  x: 100
+
+image-border:
+  extends: image
+  stroke_color: '#ffff'
+
+description:
+  extends: default-text
+  font: American Typewriter 18
+  align: left
+  width: 625
+  height: 300
+  y: 625
+  x: 100
 
 quote:
-  extends: AllText
-  font: American Typewriter 18
+  extends: default-text
+  font: American Typewriter Italic 18
   align: left
   width: 625
   height: 200

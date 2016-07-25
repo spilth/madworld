@@ -1,21 +1,33 @@
-# Intro
+# Rules
 
-What is this game about? How many players?
+## Intro
 
-# Objective
+TK
+
+## Objective
 
 The objective of the game is to be the last remaining survivor of the wasteland.
 
-# Components
+## Components
 
-What are the components? List them out.
+TK
 
-# Gameplay
+## Gameplay
 
-What does each turn look like? Describe a turn. 
+### Setup
 
-# Scoring
+- Separate out the Character cards and shuffle them
+- Deal a Character card to each player
+- Each player puts their Character card in front of them face up
+- Each player rolls a die. Highest number goes first.
 
-How is victory assigned?
+### Turn
 
+- Draw two cards
+- Take 2 actions
+- Discard down to 7 cards
+
+## Scoring
+
+TK
 

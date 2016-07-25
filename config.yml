@@ -47,4 +47,4 @@ img_dir: images
 
 # By default, Squib will warn if a PNG is being up-scaled.
 # warn_png_scale: true # default
-# warn_png_scale: false # turn off entirely
+warn_png_scale: false # turn off entirely

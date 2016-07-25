@@ -1,18 +1,19 @@
-"name","type","quote"
-"Ash","Character","Hail to the king, baby!"
-"Mad Max","Character","You want to get out of here? You talk to me."
-"Jim","Character","Oh, no. No, see-see, this is a really shit idea. You know why? Because it's really obviously a shit idea."
-"Robert Neville","Character","Full circle. A new terror born in death, a new superstition entering the unassailable fortress of forever. I am legend."
-"James Cole","Character","I'm here about some monkeys."
-"The Mariner","Character","Because I haven't seen it. And I've sailed further than most men have dreamed."
-"Daryl Dixon","Character","I ain't nobody's bitch."
-"Tank Girl","Character","Feeling a little inadequate? "
-"Imperator Furiosa","Character","You wanna get through this? Do as I say. Now pick up what you can and run. "
-"Aunty Entity","Character","Do you know who I was? Nobody. Except on the day after, I was still alive. This nobody had a chance to be somebody."
-"The Interceptor","Vehicle","The last of the V8 Interceptors... a piece of history!"
-"The Landmaster","Vehicle",""
-"Honda Nighthawk","Vehicle",""
-"Boomstick","Weapon","Alright you Primitive Screwheads, listen up! You see this? This... is my BOOMSTICK! The twelve-gauge double-barreled Remington. S-Mart's top of the line."
-"Metal Boomerang","Weapon","*growl*"
-"Zombie","Enemy","Brrraaaiinnnsss!!!"
-"Megaweapon","Enemy","Megaweapon! Megaweapon! Megaweapon!"
+name,type,quote,image,description
+"Ash","Character","Hail to the king, baby!",characters/ash.png,
+"Mad Max","Character","You want to get out of here? You talk to me.",characters/madmax.png,Whenever another player takes damage you may take that damage in their place.
+"Jim","Character","Oh, no. No, see-see, this is a really shit idea. You know why? Because it's really obviously a shit idea.",,
+"Robert Neville","Character","Full circle. A new terror born in death, a new superstition entering the unassailable fortress of forever. I am legend.",,
+"James Cole","Character","I'm here about some monkeys.",,
+"The Mariner","Character","Because I haven't seen it. And I've sailed further than most men have dreamed.",,
+"Daryl Dixon","Character","I ain't nobody's bitch.",,
+"Tank Girl","Character","Feeling a little inadequate? ",,
+"Imperator Furiosa","Character","You wanna get through this? Do as I say. Now pick up what you can and run. ",,
+"Aunty Entity","Character","Do you know who I was? Nobody. Except on the day after, I was still alive. This nobody had a chance to be somebody.",,
+"Judge Dredd","Character","Mega City One. 800 million people living in the ruin of the old world and the mega structures of the new one. Only one thing fighting for order in the chaos: judges.",,
+"The Interceptor","Vehicle","The last of the V8 Interceptors... a piece of history!",,
+"The Landmaster","Vehicle","",,
+"Honda Nighthawk","Vehicle","",,
+"Boomstick","Weapon","Alright you Primitive Screwheads, listen up! You see this? This... is my BOOMSTICK! The twelve-gauge double-barreled Remington. S-Mart's top of the line.",,
+"Metal Boomerang","Weapon","*growl*",,
+"Zombie","Enemy","Brrraaaiinnnsss!!!",,
+"Megaweapon","Enemy","Megaweapon! Megaweapon! Megaweapon!",vehicles/megaweapon.png,
