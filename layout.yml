@@ -11,34 +11,70 @@ cut:
   width: 750
   height: 1050
   radius: 16
+  dash: 3 3
   fill_color: '#000f'
+  stroke_color: '#0000'
 
 safe:
   x: 75
   y: 75
   width: 675
   height: 975
+  dash: 3 3
+  fill_color: '#0000'
+  stroke_color: '#0000'
 
 background:
   extends: safe
-  alpha: 0.75
 
 default-text:
-  font: American Typewriter 36
-  align: center
-  color: '#ffff'
+  font: AA Typewriter 36
+  align: left
+  color: '#000f'
+
+text-rect:
+  fill_color: '#fffa'
+  stroke_color: '#0003'
+
+name-rect:
+  extends: text-rect
+  x: 100
+  y: 100
+  width: 625
+  height: 38
 
 name:
-  font: American Typewriter Bold 36
+  font: AA Typewriter Bold 24
   extends: default-text
-  width: 825
-  y: 75
+  x: 110
+  y: 100
+  width: 615
+  height: 65
 
-type-name:
+image:
+  width: 625
+  height: 400
+  y: 150
+  x: 100
+
+image-border:
+  extends: image
+  stroke_color: '#0006'
+
+type-rect:
+  extends: text-rect
+  x: 100
+  y: 562
+  width: 625
+  height: 38
+
+type:
   extends: default-text
-  font: American Typewriter Regular 24
-  width: 825
-  y: 125
+  font: AA Typewriter Regular 20
+  width: 615
+  height: 65
+  x: 110
+  y: 565
 
 type-icon:
   x: 100
@@ -46,31 +82,27 @@ type-icon:
   width: 75
   height: 75
 
-image:
+description-rect:
+  extends: text-rect
+  x: 100
+  y: 612
   width: 625
   height: 400
-  y: 200
-  x: 100
-
-image-border:
-  extends: image
-  stroke_color: '#ffff'
 
 description:
   extends: default-text
-  font: American Typewriter 18
+  font: AA Typewriter 18
   align: left
-  width: 625
+  width: 605
   height: 300
+  x: 110
   y: 625
-  x: 100
 
 quote:
   extends: default-text
-  font: American Typewriter Italic 18
+  font: AA Typewriter Italic 18
   align: left
-  width: 625
+  width: 605
   height: 200
+  x: 110
   y: 900
-  x: 100
-

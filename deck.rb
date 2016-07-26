@@ -32,11 +32,14 @@ Squib::Deck.new(cards: card['name'].size, layout: 'layout.yml') do
 
   rect layout: 'safe'
 
+  rect layout: 'name-rect'
   text str: card['name'], layout: 'name'
 
-  text str: card['type'], layout: 'type-name'
-  svg file: card['type'].map { |t| "#{t.downcase}.svg" }, layout: 'type-icon'
+  rect layout: 'type-rect'
+  text str: card['type'], layout: 'type'
+  # svg file: card['type'].map { |t| "#{t.downcase}.svg" }, layout: 'type-icon'
 
+  rect layout: 'description-rect'
   text str: card['description'], layout: 'description'
   text str: card['quote'], layout: 'quote'
 
